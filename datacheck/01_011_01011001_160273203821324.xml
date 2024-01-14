@@ -1,0 +1,30 @@
+<annotation>
+	<filename>01_011_01011001_160273203821324.jpg</filename>
+	<path>./01/011/01011001/01_011_01011001_160273203821324.jpg</path>
+	<source>
+		<database>fooddata</database>
+	</source>
+	<size>
+		<width>4032</width>
+		<height>3024</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>dish</name>
+		<bndbox>
+			<xmin>630</xmin>
+			<ymin>169</ymin>
+			<xmax>3495</xmax>
+			<ymax>2978</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>01011001</name>
+		<bndbox>
+			<xmin>1096</xmin>
+			<ymin>791</ymin>
+			<xmax>2931</xmax>
+			<ymax>2512</ymax>
+		</bndbox>
+	</object>
+</annotation>
