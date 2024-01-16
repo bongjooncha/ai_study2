@@ -24,7 +24,7 @@ def draw_boxes(image_path, label_path, output_path):
         cv2.rectangle(image, (x1, y1), (x2, y2), (0, 0, 255), 50)
 
         # 박스 우상단에 클래스 이름 표시
-        cv2.putText(image, class_name, (x2, y1), cv2.FONT_HERSHEY_SIMPLEX, 10, (255, 255, 255), 10, cv2.LINE_AA)
+        cv2.putText(image, class_name, (x2, y1), cv2.FONT_HERSHEY_SIMPLEX, 10, (255, 255, 255), 30, cv2.LINE_AA)
     
     # 결과를 파일로 저장
     cv2.imwrite(output_path, image)
